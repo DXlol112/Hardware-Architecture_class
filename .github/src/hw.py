@@ -50,3 +50,33 @@ print(f"\n")
 # 1 0 1 0
 # 1 1 0 1
 # 1 1 1 1
+
+# Мини-эксперимент с числами и побитовыми операциями
+a = 12  # 00001100
+b = 10  # 00001010
+
+
+def show_operation(name, value):
+    print(f"{name:<8} = {value:3} = {value:08b}")
+
+
+print("Числа и битовые операции:")
+show_operation("a", a)
+show_operation("b", b)
+show_operation("a & b", a & b)
+show_operation("a | b", a | b)
+show_operation("a ^ b", a ^ b)
+show_operation("~a", ~a & 0xFF)
+show_operation("a << 1", a << 1)
+show_operation("a >> 1", a >> 1)
+
+# Вывод
+# Числа и битовые операции:
+# a        =  12 = 00001100
+# b        =  10 = 00001010
+# a & b    =   8 = 00001000
+# a | b    =  14 = 00001110
+# a ^ b    =   6 = 00000110
+# ~a       = 243 = 11110011
+# a << 1   =  24 = 00011000
+# a >> 1   =   6 = 00000110
