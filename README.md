@@ -10,7 +10,7 @@
 | 2       | [Логические элементы и сумматор](lesson_02/class/Логические_элементы_и_сумматор.md) | [Преобразование логических схем и формул](lesson_02/hw/hw_02.md)  |
 | 3       | [Процессор: теория](lesson_03/class/Процессор_теория.md)                            | —                                                                 |
 | 4       | [Рабочий цикл процессора](lesson_04/class/Рабочий_цикл_процессора.md)               | —                                                                 |
-| 5       | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md)       | —                                                                 |
+| 5       | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md)      | [Сегментно-страничная архитектура](lesson_05/hw/hw.md)            |
 
 ## Структура
 
@@ -128,6 +128,7 @@
 │   │       ├── ram-modules.png
 │   │       ├── rom-chip.png
 │   │       ├── segment-address-translation.png
+│   │       ├── segmented-paging-diagram.png
 │   │       ├── segmented-paging.png
 │   │       ├── shared-segments.png
 │   │       ├── single-program-memory-layout.png
@@ -163,8 +164,10 @@
 │   └── hw/
 │       └── .gitkeep
 ├── lesson_05/
-│   └── class/
-│       └── memory-and-memory-management.md
+│   ├── class/
+│   │   └── memory-and-memory-management.md
+│   └── hw/
+│       └── hw.md
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
