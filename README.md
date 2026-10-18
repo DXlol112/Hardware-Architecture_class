@@ -1,16 +1,20 @@
 # Архитектура аппаратных средств
 
-Этот репозиторий заменяет тетрадь: здесь собраны конспекты занятий, домашние работы и материалы по предмету **«Архитектура аппаратных средств»**.
+В репозитории собраны конспекты занятий, домашние и контрольные работы по предмету **«Архитектура аппаратных средств»**.
 
 ## Оглавление
 
-| Занятие | Конспект                                                                            | Домашняя работа                                                   |
-| ------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1       | [Компьютерные основы: представление данных](lesson_01/class/Компьютерные_основы.md) | [Таблицы истинности логических выражений](lesson_01/hw/hw_01.md)  |
-| 2       | [Логические элементы и сумматор](lesson_02/class/Логические_элементы_и_сумматор.md) | [Преобразование логических схем и формул](lesson_02/hw/hw_02.md)  |
-| 3       | [Процессор: теория](lesson_03/class/Процессор_теория.md)                            | —                                                                 |
-| 4       | [Рабочий цикл процессора](lesson_04/class/Рабочий_цикл_процессора.md)               | —                                                                 |
-| 5       | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md)      | [Сегментно-страничная архитектура](lesson_05/hw/hw.md)            |
+| Занятие | Конспект | Домашняя работа |
+| --- | --- | --- |
+| 1 | [Компьютерные основы: представление данных](lesson_01/class/computer-fundamentals.md) | [Таблицы истинности логических выражений](lesson_01/hw/hw_01.md) |
+| 2 | [Логические элементы и сумматор](lesson_02/class/logic-gates-and-adder.md) | [Преобразование логических схем и формул](lesson_02/hw/hw_02.md) |
+| 3 | [Процессор: теория](lesson_03/class/processor-theory.md) | — |
+| 4 | [Рабочий цикл процессора](lesson_04/class/processor-instruction-cycle.md) | — |
+| 5 | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md) | [Сегментно-страничная архитектура](lesson_05/hw/hw.md) |
+
+## Контрольные работы
+
+- [Контрольная работа № 1](control-test/control-test-01.md)
 
 ## Структура
 
@@ -18,15 +22,14 @@
 ├── .github/
 │   ├── assets/
 │   │   ├── lesson_01/
-│   │   │   ├── class/
-│   │   │   │   ├── bits-slide-07-memory.png
-│   │   │   │   ├── bits-slide-10-byte-order.png
-│   │   │   │   ├── bits-slide-17-bitwise-operations.png
-│   │   │   │   ├── bits-slide-21-shifts.png
-│   │   │   │   ├── bits-slide-32-signed-unsigned.png
-│   │   │   │   ├── bits-slide-36-sign-extension.png
-│   │   │   │   └── bits-slide-40-addition.png
-│   │   │   └── hw/
+│   │   │   └── class/
+│   │   │       ├── bits-slide-07-memory.png
+│   │   │       ├── bits-slide-10-byte-order.png
+│   │   │       ├── bits-slide-17-bitwise-operations.png
+│   │   │       ├── bits-slide-21-shifts.png
+│   │   │       ├── bits-slide-32-signed-unsigned.png
+│   │   │       ├── bits-slide-36-sign-extension.png
+│   │   │       └── bits-slide-40-addition.png
 │   │   ├── lesson_02/
 │   │   │   ├── class/
 │   │   │   │   ├── and-gate.png
@@ -44,74 +47,74 @@
 │   │   │       ├── scheme_03.png
 │   │   │       └── scheme_04.png
 │   │   ├── lesson_03/
-│   │   │   ├── Адрес_сегмент_и_смещение.png
-│   │   │   ├── Адресация_памяти_микропрограмм.png
-│   │   │   ├── Адресное_пространство_8086.png
-│   │   │   ├── Аккумуляторная_архитектура.png
-│   │   │   ├── АЛУ_и_выбор_операции.png
-│   │   │   ├── Аппаратный_стек_на_регистрах.png
-│   │   │   ├── Арифметический_сдвиг_вправо.png
-│   │   │   ├── Виды_реализации_стека.png
-│   │   │   ├── Внешние_сигналы_микропроцессора.png
-│   │   │   ├── Восьмиразрядное_АЛУ.png
-│   │   │   ├── Вызов_и_возврат_подпрограммы.png
-│   │   │   ├── Вычисление_смещения_и_физического_адреса.png
-│   │   │   ├── Дизассемблирование_подпрограммы.png
-│   │   │   ├── Классификация_архитектур_системы_команд.png
-│   │   │   ├── Конвейерное_выполнение_команд.png
-│   │   │   ├── Микропрограммный_автомат_с_жесткой_логикой.png
-│   │   │   ├── Микропрограммный_автомат_с_программируемой_логикой.png
-│   │   │   ├── Модель_устройства_управления.png
-│   │   │   ├── Мультиплексор_и_стробы.png
-│   │   │   ├── Области_памяти_IBM_PC.png
-│   │   │   ├── Операционное_устройство_с_тремя_магистралями.png
-│   │   │   ├── Передача_данных_между_регистрами.png
-│   │   │   ├── Пересылка_сдвиг_и_сложение.png
-│   │   │   ├── Полный_формат_двухоперандной_команды.png
-│   │   │   ├── Префиксы_и_постбайт_адресации.png
-│   │   │   ├── Принципиальная_схема_АЛУ.png
-│   │   │   ├── Процессор_с_тремя_внутренними_шинами.png
-│   │   │   ├── Регистр_флагов_8086.png
-│   │   │   ├── Регистровый_файл.png
-│   │   │   ├── Сегменты_памяти_8086.png
-│   │   │   ├── Стек_при_вызове_и_возврате.png
-│   │   │   ├── Стековый_кадр_x86.png
-│   │   │   ├── Структура_Intel_8086.png
-│   │   │   ├── Структура_процессора.png
-│   │   │   ├── Схемы_циклических_сдвигов.png
-│   │   │   ├── Типы_магистральных_операционных_устройств.png
-│   │   │   ├── Тракт_данных_машины_фон_Неймана.png
-│   │   │   ├── Управляющие_вентили_трехшинного_процессора.png
-│   │   │   ├── Форматы_команд_8086.png
-│   │   │   └── Форматы_микрокоманд_GATE_и_TEST.png
+│   │   │   ├── 8086-address-space.png
+│   │   │   ├── 8086-flags-register.png
+│   │   │   ├── 8086-instruction-formats.png
+│   │   │   ├── 8086-memory-segments.png
+│   │   │   ├── accumulator-architecture.png
+│   │   │   ├── alu-circuit-diagram.png
+│   │   │   ├── alu-operation-selection.png
+│   │   │   ├── arithmetic-right-shift.png
+│   │   │   ├── bus-datapath-types.png
+│   │   │   ├── call-and-return-stack.png
+│   │   │   ├── control-unit-model.png
+│   │   │   ├── eight-bit-alu.png
+│   │   │   ├── full-two-operand-instruction-format.png
+│   │   │   ├── gate-and-test-microinstruction-formats.png
+│   │   │   ├── hardwired-control-unit.png
+│   │   │   ├── ibm-pc-memory-map.png
+│   │   │   ├── instruction-pipelining.png
+│   │   │   ├── instruction-set-architecture-classification.png
+│   │   │   ├── intel-8086-architecture.png
+│   │   │   ├── microprocessor-external-signals.png
+│   │   │   ├── microprogram-memory-addressing.png
+│   │   │   ├── microprogrammed-control-unit.png
+│   │   │   ├── multiplexer-and-strobes.png
+│   │   │   ├── offset-and-physical-address-calculation.png
+│   │   │   ├── prefixes-and-addressing-byte.png
+│   │   │   ├── processor-structure.png
+│   │   │   ├── register-based-hardware-stack.png
+│   │   │   ├── register-data-transfer.png
+│   │   │   ├── register-file.png
+│   │   │   ├── rotate-operation-circuits.png
+│   │   │   ├── segment-address-and-offset.png
+│   │   │   ├── stack-implementation-types.png
+│   │   │   ├── subroutine-call-and-return.png
+│   │   │   ├── subroutine-disassembly.png
+│   │   │   ├── three-bus-datapath.png
+│   │   │   ├── three-bus-processor-control-gates.png
+│   │   │   ├── three-internal-bus-processor.png
+│   │   │   ├── transfer-shift-and-add.png
+│   │   │   ├── von-neumann-datapath.png
+│   │   │   └── x86-stack-frame.png
 │   │   ├── lesson_04/
-│   │   │   ├── Set_и_Reset_процессора.png
-│   │   │   ├── Алгоритм_условного_перехода_по_маске.png
-│   │   │   ├── АЛУ_признаки_и_флаги_прерываний.png
-│   │   │   ├── Арифметические_команды_КМ1816ВЕ51.png
-│   │   │   ├── Внешние_выводы_процессора.png
-│   │   │   ├── Выборка_второго_операнда.png
-│   │   │   ├── Выборка_команды.png
-│   │   │   ├── Выборка_первого_операнда.png
-│   │   │   ├── Выполнение_операции_в_АЛУ.png
-│   │   │   ├── Двухадресный_формат_команды.png
-│   │   │   ├── Загрузка_трехбайтовой_команды.png
-│   │   │   ├── Запись_результата_в_ОП.png
-│   │   │   ├── Запись_суммы_и_следующая_команда.png
-│   │   │   ├── Маска_перехода_и_признак_результата.png
-│   │   │   ├── Операнды_в_регистрах_АЛУ.png
-│   │   │   ├── Последовательность_управляющих_сигналов.png
-│   │   │   ├── Представление_двоичного_числа.png
-│   │   │   ├── Проверка_маски_перехода.png
-│   │   │   ├── Продвижение_счетчика_команд.png
-│   │   │   ├── Результат_сложения_в_аккумуляторе.png
-│   │   │   ├── Системная_шина_процессора_и_памяти.png
-│   │   │   ├── Сохранение_признака_результата_и_флагов.png
-│   │   │   ├── Стек_и_таблица_векторов_прерываний.png
-│   │   │   ├── Схема_выполнения_условного_перехода.png
-│   │   │   ├── Управляющие_сигналы_УУиС.png
-│   │   │   ├── Упрощенная_схема_процессора_и_ОП.png
-│   │   │   └── Чтение_и_запись_оперативной_памяти.png
+│   │   │   ├── addition-result-in-accumulator.png
+│   │   │   ├── alu-operation-execution.png
+│   │   │   ├── alu-status-and-interrupt-flags.png
+│   │   │   ├── binary-number-representation.png
+│   │   │   ├── branch-mask-and-result-status.png
+│   │   │   ├── branch-mask-check.png
+│   │   │   ├── conditional-branch-circuit.png
+│   │   │   ├── control-signal-sequence.png
+│   │   │   ├── control-unit-signals.png
+│   │   │   ├── first-operand-fetch.png
+│   │   │   ├── instruction-fetch.png
+│   │   │   ├── km1816ve51-arithmetic-instructions.png
+│   │   │   ├── masked-conditional-branch-algorithm.png
+│   │   │   ├── memory-read-and-write.png
+│   │   │   ├── operands-in-alu-registers.png
+│   │   │   ├── processor-external-pins.png
+│   │   │   ├── processor-memory-system-bus.png
+│   │   │   ├── processor-set-and-reset.png
+│   │   │   ├── program-counter-advance.png
+│   │   │   ├── result-status-and-flags-save.png
+│   │   │   ├── result-write-to-memory.png
+│   │   │   ├── second-operand-fetch.png
+│   │   │   ├── simplified-processor-and-memory-diagram.png
+│   │   │   ├── stack-and-interrupt-vector-table.png
+│   │   │   ├── sum-write-and-next-instruction.png
+│   │   │   ├── three-byte-instruction-load.png
+│   │   │   └── two-address-instruction-format.png
 │   │   └── lesson_05/
 │   │       ├── cache-structure.png
 │   │       ├── cmos-and-battery.png
@@ -139,37 +142,33 @@
 │   │       ├── virtual-address-translation.png
 │   │       └── von-neumann-architecture.png
 │   └── src/
-│       ├── lesson_01/
-│       │   └── hw.py
-│       ├── .gitkeep
-│       └── hw.py
+│       ├── hw.py
+│       └── lesson_01/
+│           └── hw.py
+├── .gitignore
+├── control-test/
+│   └── control-test-01.md
 ├── lesson_01/
 │   ├── class/
-│   │   └── Компьютерные_основы.md
+│   │   └── computer-fundamentals.md
 │   └── hw/
 │       └── hw_01.md
 ├── lesson_02/
 │   ├── class/
-│   │   └── Логические_элементы_и_сумматор.md
+│   │   └── logic-gates-and-adder.md
 │   └── hw/
 │       └── hw_02.md
 ├── lesson_03/
-│   ├── class/
-│   │   └── Процессор_теория.md
-│   └── hw/
-│       └── .gitkeep
+│   └── class/
+│       └── processor-theory.md
 ├── lesson_04/
-│   ├── class/
-│   │   └── Рабочий_цикл_процессора.md
-│   └── hw/
-│       └── .gitkeep
+│   └── class/
+│       └── processor-instruction-cycle.md
 ├── lesson_05/
 │   ├── class/
 │   │   └── memory-and-memory-management.md
 │   └── hw/
 │       └── hw.md
-├── .gitignore
 ├── LICENSE.md
 └── README.md
 ```
-
