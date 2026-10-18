@@ -11,6 +11,7 @@
 | 3 | [Процессор: теория](lesson_03/class/processor-theory.md) | — |
 | 4 | [Рабочий цикл процессора](lesson_04/class/processor-instruction-cycle.md) | — |
 | 5 | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md) | [Сегментно-страничная архитектура](lesson_05/hw/hw.md) |
+| 6 | — | [HDD, SSD и оперативная память](lesson_06/hw/hw.md) |
 
 ## Контрольные работы
 
@@ -142,7 +143,6 @@
 │   │       ├── virtual-address-translation.png
 │   │       └── von-neumann-architecture.png
 │   └── src/
-│       ├── hw.py
 │       └── lesson_01/
 │           └── hw.py
 ├── .gitignore
@@ -167,6 +167,9 @@
 ├── lesson_05/
 │   ├── class/
 │   │   └── memory-and-memory-management.md
+│   └── hw/
+│       └── hw.md
+├── lesson_06/
 │   └── hw/
 │       └── hw.md
 ├── LICENSE.md
