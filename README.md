@@ -12,6 +12,7 @@
 | 4 | [Рабочий цикл процессора](lesson_04/class/processor-instruction-cycle.md) | — |
 | 5 | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md) | [Сегментно-страничная архитектура](lesson_05/hw/hw.md) |
 | 6 | — | [HDD, SSD и оперативная память](lesson_06/hw/hw.md) |
+| 7 | [Материнская плата](lesson_07/class/motherboard.md) | [Сборка и диагностика ПК](lesson_07/hw/hw.md) |
 
 ## Контрольные работы
 
@@ -116,32 +117,35 @@
 │   │   │   ├── sum-write-and-next-instruction.png
 │   │   │   ├── three-byte-instruction-load.png
 │   │   │   └── two-address-instruction-format.png
-│   │   └── lesson_05/
-│   │       ├── cache-structure.png
-│   │       ├── cmos-and-battery.png
-│   │       ├── dynamic-memory-mapping.png
-│   │       ├── dynamic-partitions.png
-│   │       ├── fixed-partitions.png
-│   │       ├── hard-disk-drive.png
-│   │       ├── memory-allocation-methods.png
-│   │       ├── memory-compaction.png
-│   │       ├── memory-hierarchy.png
-│   │       ├── overlay-structure.png
-│   │       ├── page-address-translation.png
-│   │       ├── process-page-tables.png
-│   │       ├── ram-modules.png
-│   │       ├── rom-chip.png
-│   │       ├── segment-address-translation.png
-│   │       ├── segmented-paging-diagram.png
-│   │       ├── segmented-paging.png
-│   │       ├── shared-segments.png
-│   │       ├── single-program-memory-layout.png
-│   │       ├── storage-device-types.png
-│   │       ├── system-bus-data-transfer.png
-│   │       ├── tape-drive.png
-│   │       ├── usb-flash-drive.png
-│   │       ├── virtual-address-translation.png
-│   │       └── von-neumann-architecture.png
+│   │   ├── lesson_05/
+│   │   │   ├── cache-structure.png
+│   │   │   ├── cmos-and-battery.png
+│   │   │   ├── dynamic-memory-mapping.png
+│   │   │   ├── dynamic-partitions.png
+│   │   │   ├── fixed-partitions.png
+│   │   │   ├── hard-disk-drive.png
+│   │   │   ├── memory-allocation-methods.png
+│   │   │   ├── memory-compaction.png
+│   │   │   ├── memory-hierarchy.png
+│   │   │   ├── overlay-structure.png
+│   │   │   ├── page-address-translation.png
+│   │   │   ├── process-page-tables.png
+│   │   │   ├── ram-modules.png
+│   │   │   ├── rom-chip.png
+│   │   │   ├── segment-address-translation.png
+│   │   │   ├── segmented-paging-diagram.png
+│   │   │   ├── segmented-paging.png
+│   │   │   ├── shared-segments.png
+│   │   │   ├── single-program-memory-layout.png
+│   │   │   ├── storage-device-types.png
+│   │   │   ├── system-bus-data-transfer.png
+│   │   │   ├── tape-drive.png
+│   │   │   ├── usb-flash-drive.png
+│   │   │   ├── virtual-address-translation.png
+│   │   │   └── von-neumann-architecture.png
+│   │   └── lesson_07/
+│   │       ├── motherboard-components.svg
+│   │       └── motherboard-connectors.svg
 │   └── src/
 │       └── lesson_01/
 │           └── hw.py
@@ -170,6 +174,11 @@
 │   └── hw/
 │       └── hw.md
 ├── lesson_06/
+│   └── hw/
+│       └── hw.md
+├── lesson_07/
+│   ├── class/
+│   │   └── motherboard.md
 │   └── hw/
 │       └── hw.md
 ├── LICENSE.md
