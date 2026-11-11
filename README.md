@@ -13,10 +13,12 @@
 | 5 | [Память и управление памятью](lesson_05/class/memory-and-memory-management.md) | [Сегментно-страничная архитектура](lesson_05/hw/hw.md) |
 | 6 | — | [HDD, SSD и оперативная память](lesson_06/hw/hw.md) |
 | 7 | [Материнская плата](lesson_07/class/motherboard.md) | [Сборка и диагностика ПК](lesson_07/hw/hw.md) |
+| 8 | — | [Устройство видеокарты и пропускная способность VRAM](lesson_08/hw/hw.md) |
 
 ## Контрольные работы
 
 - [Контрольная работа № 1](control-test/control-test-01.md)
+- [Контрольная работа № 2](control-test/control-test-02.md)
 
 ## Структура
 
@@ -151,7 +153,8 @@
 │           └── hw.py
 ├── .gitignore
 ├── control-test/
-│   └── control-test-01.md
+│   ├── control-test-01.md
+│   └── control-test-02.md
 ├── lesson_01/
 │   ├── class/
 │   │   └── computer-fundamentals.md
@@ -179,6 +182,9 @@
 ├── lesson_07/
 │   ├── class/
 │   │   └── motherboard.md
+│   └── hw/
+│       └── hw.md
+├── lesson_08/
 │   └── hw/
 │       └── hw.md
 ├── LICENSE.md
