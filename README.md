@@ -14,6 +14,8 @@
 | 6 | — | [HDD, SSD и оперативная память](lesson_06/hw/hw.md) |
 | 7 | [Материнская плата](lesson_07/class/motherboard.md) | [Сборка и диагностика ПК](lesson_07/hw/hw.md) |
 | 8 | — | [Устройство видеокарты и пропускная способность VRAM](lesson_08/hw/hw.md) |
+| 9 | — | [Блок питания и система охлаждения ПК](lesson_09/hw/hw.md) |
+| 10 | [Практика BIOS/UEFI](lesson_10/class/uefi-practice.md) | — |
 
 ## Контрольные работы
 
@@ -145,9 +147,20 @@
 │   │   │   ├── usb-flash-drive.png
 │   │   │   ├── virtual-address-translation.png
 │   │   │   └── von-neumann-architecture.png
-│   │   └── lesson_07/
-│   │       ├── motherboard-components.svg
-│   │       └── motherboard-connectors.svg
+│   │   ├── lesson_07/
+│   │   │   ├── motherboard-components.svg
+│   │   │   └── motherboard-connectors.svg
+│   │   └── lesson_10/
+│   │       ├── 01-main.png
+│   │       ├── 02-boot-order.png
+│   │       ├── 03-secure-boot.png
+│   │       ├── 04-supervisor-password.png
+│   │       ├── 05-factory-defaults.png
+│   │       ├── 06-always-on-usb.png
+│   │       ├── 07-storage-menu.png
+│   │       ├── 08-f12-option.png
+│   │       ├── 09-event-log.png
+│   │       └── 10-save-and-exit.png
 │   └── src/
 │       └── lesson_01/
 │           └── hw.py
@@ -187,6 +200,12 @@
 ├── lesson_08/
 │   └── hw/
 │       └── hw.md
+├── lesson_09/
+│   └── hw/
+│       └── hw.md
+├── lesson_10/
+│   └── class/
+│       └── uefi-practice.md
 ├── LICENSE.md
 └── README.md
 ```
